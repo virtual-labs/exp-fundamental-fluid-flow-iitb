@@ -1,21 +1,66 @@
 [
-    {
-       "question": "Sample Question",
+
+   {
+       "question": "For internal flow in Laminar Region which statement is correct?",
        "qid": 1,
-       "option_a": "Option 1",
-       "option_b": "Option 2",
-       "option_c": "Option 3",
-       "option_d": "Option 4",
-       "correct_option": "a"
-    },
-    {
-       "question": "Sample Question",
+       "option_a": "$$ Re \\gt 4000 $$",
+       "option_b": "$$ Re \\lt 2000 $$",
+       "option_c": "$$ 2000 \\le Re \\le 4000 $$",
+       "option_d": "$$ Re = 0 $$",
+       "correct_option": "b"
+   },
+   {
+       "question": "Entrance length for internal flow can be estimated by",
        "qid": 2,
-       "option_a": "Option 1",
-       "option_b": "Option 2",
-       "option_c": "Option 3",
-       "option_d": "Option 4",
+       "option_a": "$$ \\frac{Le}{D} = 0.0575 \\ Re $$",
+       "option_b": "$$ \\frac{D}{Le} = 0.0575 \\ Re $$",
+       "option_c": "$$ \\frac{Le}{D} = -0.0575 \\ Re $$",  
+       "option_d": "$$ \\frac{D}{Le} = -0.0575 \\ Re $$",
        "correct_option": "a"
-    }
- ]
- 
+   },
+   {
+       "question": "Ratio of local velocity to max velocity is given by (Internal flow)",
+       "qid": 3,
+       "option_a": "$$ \\frac{U}{U_{max}} = 1 + \\left(\\frac{r}{r_0}\\right)^2 $$",
+       "option_b": "$$ \\frac{U}{U_{max}} = 1 + \\left(\\frac{r_0}{r}\\right)^2 $$",
+       "option_c": "$$ \\frac{U}{U_{max}} = 1 - \\left(\\frac{r_0}{r}\\right)^2 $$",
+       "option_d": "$$ \\frac{U}{U_{max}} = 1 - \\left(\\frac{r}{r_0}\\right)^2 $$",
+       "correct_option": "d"
+   },
+   {
+       "question": "Ratio of max velocity to average velocity is given by (Internal flow)",
+       "qid": 4,
+       "option_a": "$$ \\frac{U_{max}}{U_{avg}} = 1 $$",
+       "option_b": "$$ \\frac{U_{max}}{U_{avg}} = 2 $$",
+       "option_c": "$$ \\frac{U_{max}}{U_{avg}} = 3 $$",
+       "option_d": "$$ \\frac{U_{max}}{U_{avg}} = 4 $$",
+       "correct_option": "b"
+   },
+   {
+       "question": "The friction factor for internal flow is given by",
+       "qid": 5,
+       "option_a": "$$ f = \\frac{16}{Re} $$",
+       "option_b": "$$ f = -\\frac{16}{Re} $$",
+       "option_c": "$$ f = \\frac{Re}{16} $$",
+       "option_d": "$$ f = -\\frac{Re}{16} $$",
+       "correct_option": "a"
+   },
+   {
+       "question": "For external & laminar flow which statement is valid?",
+       "qid": 6,
+       "option_a": "$$ Re \\gt 3 \\times 10^5 $$",
+       "option_b": "$$ Re \\le 3 \\times 10^5 $$",
+       "option_c": "$$ Re \\lt 3 \\times 10^5 $$",
+       "option_d": "$$ Re \\ge 3 \\times 10^5 $$",
+       "correct_option": "c"
+   },
+   {
+       "question": "For external & turbulent flow which statement is valid?",
+       "qid": 7,
+       "option_a": "$$ Re \\ge 5 \\times 10^5 $$",
+       "option_b": "$$ Re \\gt 5 \\times 10^5 $$",
+       "option_c": "$$ Re \\lt 5 \\times 10^5 $$",
+       "option_d": "$$ Re \\le 5 \\times 10^5 $$",
+       "correct_option": "b"
+   }
+]
