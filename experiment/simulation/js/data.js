@@ -1,0 +1,32 @@
+// current experiemnt varaibles
+let a1_water_temp = 20; // celcius
+let a1_pipe_diameter = parseFloat((1 + Math.random() * 9).toFixed(1)); // cm
+let a1_velocity = parseInt((1 + Math.random() * 19).toFixed(0)); // m/min
+let a1_rho = parseInt((900 + Math.random() * 100).toFixed(0)); // kg/m3
+let a1_mu = 1.006e-6; // m2/s
+let a1_re = 0;
+let a1_f = 0;
+let a1_pressure_drop = 0; // N/m2 per meter
+let ques_ans = 'a';
+// for a2
+let a2_env_temp = 30; // celcius
+let a2_velocity = parseInt((100 + Math.random() * 30).toFixed(0)); // m/min
+let a2_plate_temp = 90; // celcius
+let a2_x1 = parseInt((10 + Math.random() * 10).toFixed(0)); // cm
+let a2_x2 = parseInt((30 + Math.random() * 10).toFixed(0)); // cm
+let a2_avg_mean_temp = 60; // celcius
+let a2_cp = 1.007e3; // j/kg-k
+let a2_rho = 1.04; // kg/m3
+let a2_mu = 19.03e-6; // m2/s
+let a2_re1 = 0;
+let a2_re2 = 0;
+let a2_karman_delta1 = 0; // m
+let a2_karman_delta2 = 0; // m
+let a2_karman_mfr = 0; // kg/s
+let a2_blasius_delta1 = 0; // m
+let a2_blasius_delta2 = 0; // m
+let a2_blasius_mfr = 0; // kg/s
+let a2_drag_force = 0; // N
+let a2_karman_ldc = 0;
+let a2_blasius_ldc = 0;
+//# sourceMappingURL=data.js.map
